@@ -1,0 +1,76 @@
+
+body {
+    text-align: center;
+    /*background-color: #c7d5d6;*/
+    background-image: url("../images/spacebg.jpg");
+    
+}
+
+.jumbotron {
+    background-color:#0e2b45;
+    margin-top: 20px;
+    
+}
+
+h1 {
+    font-size: 45px;
+    font-family: sans-serif;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+}
+.instructions {
+    font: bold 20px sans-serif;
+    
+}
+
+.card {
+    padding: 20px;
+    text-align: justify;
+    background-color: #613279;
+    color: white;
+    margin-bottom: 20px;
+    font-family: 'Dosis', sans-serif;
+    overflow: auto;
+    
+}
+
+.crystals {
+    margin-bottom: 20px;
+}
+.formatting {
+    margin-right: 20px;
+    width: 68%;
+}
+#randomNumber {
+    margin-right: 20px;
+    font-size: 40px;
+}
+.score {
+    width: 30.2%;
+}
+p{
+    padding: 10px;
+    font: bold 15px sans-serif;
+}
+
+#totalScore {
+    font-size: 40px;
+    padding: 20px;
+
+}
+
+img:hover {
+    filter: none;
+    filter: contrast(100%);
+    filter: brightness(125%);
+}
+
+img {
+    filter: grayscale(50%);
+}
+
+#outcome img {
+    filter: none;
+    width: 70%;
+    margin-bottom: 10px;
+}
